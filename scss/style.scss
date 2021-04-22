@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+}
+.logo__img {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.title {
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.presentation__content {
+    width: 33%;
+}
+.presentation__img {
+    display: block;
+    width: 300px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.presentation__info {
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.presentation__price {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
